@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-google {
+  background-color: #4285f4;
+  color: white;
+}
+
+.btn-google:hover {
+  background-color: #357ae8;
+}
+
+.btn-outlook {
+  background-color: #0078d4;
+  color: white;
+}
+
+.btn-outlook:hover {
+  background-color: #005a9e;
+}
